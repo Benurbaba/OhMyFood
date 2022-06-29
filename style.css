@@ -3,16 +3,25 @@
 * {
     box-sizing: border-box;
     margin: auto;
-    max-width: 1040px;
+    max-width: 320px;
 }
 
 body {
-    border: 1px solid black;
+    margin: 0;
+    font-family: "roboto";
 }
 
 header {
     text-align: center;
     font-family: "Shrikhand";
-    box-shadow: 0px 2px 0px lightgray;
+    box-shadow: 0px 2px 0px gray;
     padding: 25px;
+    position: relative;
+}
+
+.localisation {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
 }
