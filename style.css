@@ -2,26 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
 * {
     box-sizing: border-box;
-    margin: auto;
-    max-width: 320px;
+    margin: 0;
 }
 
 body {
     margin: 0;
-    font-family: "roboto";
+    font-family: "roboto", sans-serif;
 }
 
 header {
     text-align: center;
     font-family: "Shrikhand";
-    box-shadow: 0px 2px 0px gray;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
     padding: 25px;
+    margin: 0;
     position: relative;
 }
 
+
+/* class Localisation */
+
 .localisation {
-    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(235, 235, 235);
     text-align: center;
     padding: 10px;
     font-size: 10px;
+}
+
+.localisation i {
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+
+/* class Explorer */
+
+.explorer {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.explorer h2 {
+    font-size: 22px;
+}
+
+.explorer p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.explorer button {
+    background: linear-gradient(162deg, #9356DC, #FF79DA);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.explorer button:hover {
+    transform: scale(1.02);
+}
+
+
+/* Class fonctionnement */
+
+.fonctionnement {
+    padding: 20px;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+}
+
+.article1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.article1 h2 {
+    font-size: 15px;
 }
