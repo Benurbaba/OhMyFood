@@ -1,0 +1,16 @@
+/* class Localisation */
+
+.localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    i {
+        font-size: 13px;
+        padding-bottom: 3px;
+    }
+}

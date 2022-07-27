@@ -1,0 +1,29 @@
+/* class Explorer */
+
+.explorer {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    button {
+        background: linear-gradient(162deg, #9356DC, #FF79DA);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: scale(1.02);
+    }
+}
